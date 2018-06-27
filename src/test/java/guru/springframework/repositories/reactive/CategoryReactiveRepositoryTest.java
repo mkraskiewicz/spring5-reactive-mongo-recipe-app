@@ -1,7 +1,7 @@
 package guru.springframework.repositories.reactive;
 
 import guru.springframework.domain.Category;
-import guru.springframework.repositories.Reactive.CategoryReactiveRepository;
+import guru.springframework.repositories.repositories.CategoryReactiveRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,7 +1,7 @@
 package guru.springframework.repositories.reactive;
 
 import guru.springframework.domain.Recipe;
-import guru.springframework.repositories.Reactive.RecipeReactiveRepository;
+import guru.springframework.repositories.repositories.RecipeReactiveRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

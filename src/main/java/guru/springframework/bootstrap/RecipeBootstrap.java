@@ -7,7 +7,6 @@ import guru.springframework.repositories.RecipeRepository;
 import guru.springframework.repositories.UnitOfMeasureRepository;
 import guru.springframework.repositories.repositories.CategoryReactiveRepository;
 import guru.springframework.repositories.repositories.RecipeReactiveRepository;
-import guru.springframework.repositories.repositories.UnitOfMeasureReactiveRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
@@ -38,7 +37,7 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
     private RecipeReactiveRepository recipeReactiveRepository;
 
     @Autowired
-    private UnitOfMeasureReactiveRepository unitOfMeasureReactiveRepository;
+    private guru.springframework.repositories.repositories.UnitOfMeasureReactiveRepository unitOfMeasureReactiveRepository;
 
     public RecipeBootstrap(CategoryRepository categoryRepository,
                            RecipeRepository recipeRepository, UnitOfMeasureRepository unitOfMeasureRepository) {
